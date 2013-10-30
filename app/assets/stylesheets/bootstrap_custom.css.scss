@@ -1,5 +1,12 @@
-$body-bg: #f39c12;
-$btn-primary-bg: #e67e22;
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700,400);
+$body-bg: #f1c40f;
+$font-family-sans-serif: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height: 60px;
+$btn-primary-bg: #f39c12;
 $navbar-default-bg: #ecf0f1;
-$jumbotron-bg: #f39c12;
+$jumbotron-bg: #f1c40f;
 @import 'bootstrap';
+
+.navbar-brand {
+     font-weight: bold;
+}
