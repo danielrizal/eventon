@@ -1,10 +1,17 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700,400);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700,400,300);
 $body-bg: #f1c40f;
 $font-family-sans-serif: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-height: 60px;
 $btn-primary-bg: #f39c12;
 $navbar-default-bg: #ecf0f1;
 $jumbotron-bg: #f1c40f;
+$headings-font-weight: 300;
+$panel-bg: #f1c40f;
+$panel-default-heading-bg: #f1c40f;
+$panel-footer-bg: #f1c40f;
+$panel-default-border: #f39c12;
+$panel-inner-border: #f39c12;
+
 @import 'bootstrap';
 
 .navbar-brand {
