@@ -1,7 +1,10 @@
 Eventon::Application.routes.draw do
   root "pages#home"
   get "about" => "pages#about" # Creates about path
+  get "services" => "pages#services" # Creates contact path
+  get "team" => "pages#team" # Creates contact path
   get "contact" => "pages#contact" # Creates contact path
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
