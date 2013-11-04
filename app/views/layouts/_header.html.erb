@@ -16,10 +16,12 @@
     
 
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "About Us", about_path %></li>
-        <li><%= link_to "Services", services_path %></li>
-        <li><%= link_to "Team", team_path %></li>
+        <li><%= link_to "Graphic Design", graphic_path %></li>
+        <li><%= link_to "Photography", photo_path %></li>
+        <li><%= link_to "Media Production", media_path %></li>
+        <li><%= link_to "Web Development", web_path %></li> 
+        <li><%= link_to "Portfolio", folio_path %></li> 
         <li><%= link_to "Contact", contact_path %></li> 
         <% if user_signed_in? %>
           <li><%= link_to "Accounts", edit_user_registration_path %> </li>

@@ -1,11 +1,17 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700,400,300);
-$body-bg: #f1c40f;
+
 $font-family-sans-serif: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-height: 60px;
 $btn-primary-bg: #f39c12;
 $navbar-default-bg: #ecf0f1;
-$jumbotron-bg: #f1c40f;
+
+// Body Color
+$body-bg: #3498db;
+$jumbotron-bg: #3498db;
+
+
 $headings-font-weight: 300;
+
 $panel-bg: #f1c40f;
 $panel-default-heading-bg: #f1c40f;
 $panel-footer-bg: #f1c40f;
@@ -16,4 +22,29 @@ $panel-inner-border: #f39c12;
 
 .navbar-brand {
      font-weight: bold;
+}
+
+.jumbotron h1, h2, h5 {
+	color: #2980b9;
+}
+
+
+.jumbotron  p {
+	color: #ecf0f1;
+}
+
+h2 {
+	margin-top: 0;
+	
+}
+
+.jumbotron p {
+	line-height: 1.5;
+	letter-spacing: -0.04em;
+}
+
+footer {
+	background: #2980b9;
+	color: #3498db;
+	// text-align: center;
 }

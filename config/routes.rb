@@ -1,10 +1,16 @@
 Eventon::Application.routes.draw do
   devise_for :users
-  root "pages#home"
+  root "pages#about"
   get "about" => "pages#about" # Creates about path
-  get "services" => "pages#services" # Creates contact path
-  get "team" => "pages#team" # Creates contact path
+  get "graphic" => "pages#graphic" # Creates graphic path
+  get "photo" => "pages#photo" # Creates photo path
+  get "media" => "pages#media" # Creates media path
+  get "web" => "pages#web" # Creates web path
+  get "folio" => "pages#folio" # Creates folio path
   get "contact" => "pages#contact" # Creates contact path
+  get "team" => "pages#team" # Creates web path
+
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
